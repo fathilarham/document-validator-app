@@ -1,168 +1,303 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="utf-8" />
-    <title>Pedod.id</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Premium Bootstrap 4 Landing Page Template" />
-    <meta name="keywords" content="Saas, Software, multi-uses, HTML, Clean, Modern" />
-    <meta name="author" content="Shreethemes" />
-    <meta name="email" content="shreethemes@gmail.com" />
-    <meta name="website" content="http://www.shreethemes.in" />
-    <meta name="Version" content="v2.2" />
-    <!-- favicon -->
-    <link rel="shortcut icon" href="images/favicon.png">
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Start your development with a Dashboard for Bootstrap 4.">
+    <meta name="author" content="Creative Tim">
+    <title>Pedod.id App</title>
+    <!-- Favicon -->
+    <link href="images/favicon.png" rel="icon" type="image/png">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
     <!-- Icons -->
-    <link href="css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.7/css/unicons.css">
-    <!-- Magnific -->
-    <link href="css/magnific-popup.css" rel="stylesheet" type="text/css" />
-    <!-- Slider -->
-    <link rel="stylesheet" href="css/owl.carousel.min.css" />
-    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
-    <!-- Main Css -->
-    <link href="css/style.css" rel="stylesheet" type="text/css" id="theme-opt" />
-    <link href="css/colors/default.css" rel="stylesheet" id="color-opt">
-
+    <link href="vendor/nucleo/css/nucleo.css" rel="stylesheet">
+    <link href="vendor/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <!-- Argon CSS -->
+    <link type="text/css" href="css/argon.min.css?v=1.0.0" rel="stylesheet">
 </head>
 
 <body>
-    <!-- Loader -->
-    <!-- <div id="preloader">
-            <div id="status">
-                <div class="spinner">
-                    <div class="double-bounce1"></div>
-                    <div class="double-bounce2"></div>
-                </div>
-            </div>
-        </div> -->
-    <!-- Loader -->
-
-    <!-- Navbar STart -->
-    <header id="topnav" class="defaultscroll sticky">
-        <div class="container">
-            <!-- Logo container-->
-            <div>
-                <a class="logo" href="index.html">
-                    <img src="images/logo-dark.png" height="24" alt="">
-                </a>
-            </div>
-            <div class="buy-button d-none d-md-block">
-                <a href="https://1.envato.market/4n73n" target="_blank" class="btn btn-primary">Login</a>
-            </div>
-            <!--end login button-->
-            <!-- End Logo container-->
-            <div class="menu-extras">
-                <div class="menu-item">
-                    <!-- Mobile menu toggle-->
-                    <a class="navbar-toggle">
-                        <div class="lines">
-                            <span></span>
-                            <span></span>
-                            <span></span>
+    <!-- Sidenav -->
+    <nav class="navbar navbar-vertical fixed-left navbar-expand-md navbar-light bg-white" id="sidenav-main">
+        <div class="container-fluid">
+            <!-- Toggler -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#sidenav-collapse-main"
+                aria-controls="sidenav-main" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Brand -->
+            <a class="navbar-brand pt-0" href="./index.html">
+                <img src="images/logo-dark.png" class="navbar-brand-img" alt="...">
+            </a>
+            <!-- User -->
+            <ul class="nav align-items-center d-md-none">
+                <li class="nav-item dropdown">
+                    <a class="nav-link nav-link-icon" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">
+                        <i class="ni ni-bell-55"></i>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-arrow dropdown-menu-right"
+                        aria-labelledby="navbar-default_dropdown_1">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">
+                        <div class="media align-items-center">
+                            <span class="avatar avatar-sm rounded-circle">
+                                <img alt="Image placeholder" src="./assets/img/theme/team-1-800x800.jpg">
+                            </span>
                         </div>
                     </a>
-                    <!-- End mobile menu toggle-->
-                </div>
-            </div>
+                    <div class="dropdown-menu dropdown-menu-arrow dropdown-menu-right">
+                        <div class=" dropdown-header noti-title">
+                            <h6 class="text-overflow m-0">Welcome!</h6>
+                        </div>
 
-            <div id="navigation">
-                <!-- Navigation Menu-->
-                <ul class="navigation-menu float-md-right">
-                    <li><a href="index.html">Beranda</a></li>
-                    <li><a href="index.html">Hubungi Kami</a></li>
-                    <li class="d-block d-md-none"><a href="index.html">Login</a></li>
-                </ul>
-                <!--end navigation menu-->
-                <!--end login button-->
-            </div>
-            <!--end navigation-->
-        </div>
-        <!--end container-->
-    </header>
-    <!--end header-->
-    <!-- Navbar End -->
-
-    <!-- Hero Start -->
-    <section class="bg-half-170 d-table w-100" id="home">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-7 col-md-7">
-                    <div class="title-heading mt-4">
-                        <h1 class="heading mb-3">Solusi Pengamanan <br><span class="element text-primary"
-                                data-elements="Ijazah, Sertifikat, Piagam, Dokumen"></span> Digital.</h1>
-                        <p class="para-desc text-muted"><b>Cek Keaslian</b> & <b>Cegah Manipulasi</b> Sertifikat,
-                            Ijazah, Piagam, dan dokumen-dokumen digital lainnya
-                            yang anda terbitkan.</p>
-                        <div class="mt-4">
-                            <a href="javascript:void(0)" class="btn btn-outline-primary rounded"><i
-                                    class="mdi mdi-inbox"></i> Coba Aplikasi</a>
+                        <a href="#!" class="dropdown-item">
+                            <i class="ni ni-user-run"></i>
+                            <span>Logout</span>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+            <!-- Collapse -->
+            <div class="collapse navbar-collapse" id="sidenav-collapse-main">
+                <!-- Collapse header -->
+                <div class="navbar-collapse-header d-md-none">
+                    <div class="row">
+                        <div class="col-6 collapse-brand">
+                            <a href="./index.html">
+                                <img src="./assets/img/brand/blue.png">
+                            </a>
+                        </div>
+                        <div class="col-6 collapse-close">
+                            <button type="button" class="navbar-toggler" data-toggle="collapse"
+                                data-target="#sidenav-collapse-main" aria-controls="sidenav-main" aria-expanded="false"
+                                aria-label="Toggle sidenav">
+                                <span></span>
+                                <span></span>
+                            </button>
                         </div>
                     </div>
                 </div>
-                <!--end col-->
-                <!--end col-->
-
-                <div class="col-lg-5 col-md-5 mt-4 pt-2 mt-sm-0 pt-sm-0">
-                    <img src="images/illustrator/services.svg" alt="">
-                </div>
-                <!--end col-->
+                <!-- Form -->
+                <form class="mt-4 mb-3 d-md-none">
+                    <div class="input-group input-group-rounded input-group-merge">
+                        <input type="search" class="form-control form-control-rounded form-control-prepended"
+                            placeholder="Search" aria-label="Search">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">
+                                <span class="fa fa-search"></span>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <!-- Navigation -->
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">
+                            <i class="ni ni-tv-2 text-primary"></i> Dashboard
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./examples/icons.html">
+                            <i class="ni ni-planet text-blue"></i> Icons
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./examples/maps.html">
+                            <i class="ni ni-pin-3 text-orange"></i> Maps
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./examples/profile.html">
+                            <i class="ni ni-single-02 text-yellow"></i> User profile
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./examples/tables.html">
+                            <i class="ni ni-bullet-list-67 text-red"></i> Tables
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./examples/login.html">
+                            <i class="ni ni-key-25 text-info"></i> Login
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./examples/register.html">
+                            <i class="ni ni-circle-08 text-pink"></i> Register
+                        </a>
+                    </li>
+                </ul>
+                <!-- Divider -->
+                <hr class="my-3">
+                <!-- Heading -->
+                <h6 class="navbar-heading text-muted">Documentation</h6>
+                <!-- Navigation -->
+                <ul class="navbar-nav mb-md-3">
+                    <li class="nav-item">
+                        <a class="nav-link"
+                            href="https://demos.creative-tim.com/argon-dashboard/docs/getting-started/overview.html">
+                            <i class="ni ni-spaceship"></i> Getting started
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"
+                            href="https://demos.creative-tim.com/argon-dashboard/docs/foundation/colors.html">
+                            <i class="ni ni-palette"></i> Foundation
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"
+                            href="https://demos.creative-tim.com/argon-dashboard/docs/components/alerts.html">
+                            <i class="ni ni-ui-04"></i> Components
+                        </a>
+                    </li>
+                </ul>
             </div>
-            <!--end row-->
         </div>
-        <!--end container-->
-    </section>
-    <!--end section-->
-    <!-- Hero End -->
+    </nav>
+    <!-- Main content -->
+    <div class="main-content">
+        <!-- Top navbar -->
+        <nav class="navbar navbar-top navbar-expand-md navbar-dark" id="navbar-main">
+            <div class="container-fluid">
+                <!-- Brand -->
+                <a class="h4 mb-0 text-white text-uppercase d-none d-lg-inline-block" href="./index.html">Dashboard</a>
 
-    <!--end footer-->
-    <footer class="footer footer-bar">
-        <div class="container text-center">
-            <div class="row justify-content-center">
-                <div class="col-md-2 col-6">
-                    <img src="images/logo-light.png" class="img-fluid mb-2" alt="">
-                    <div class="text-sm-left">
-                        <p class="mb-0">© 2020 <a href="">Fathil Arham</a>.
-                        </p>
+                <!-- User -->
+                <ul class="navbar-nav align-items-center d-none d-md-flex">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link pr-0" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            <div class="media align-items-center">
+                                <div class="media-body ml-2 d-none d-lg-block">
+                                    <span class="mb-0 text-sm  font-weight-bold">{{ Auth::user()->name }}</span>
+                                </div>
+                            </div>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-arrow dropdown-menu-right">
+                            <div class=" dropdown-header noti-title">
+                                <h6 class="text-overflow m-0">Welcome!</h6>
+                            </div>
+
+                            <a href="#!" class="dropdown-item">
+                                <i class="ni ni-user-run"></i>
+                                <span>Logout</span>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Header -->
+        <div class="header bg-gradient-primary pb-8 pt-5 pt-md-8">
+            <div class="container-fluid">
+                <div class="header-body">
+                    <!-- Card stats -->
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-4">
+                            <div class="card card-stats mb-4 mb-xl-0">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col">
+                                            <h5 class="card-title text-uppercase text-muted mb-0">Jumlah Dokumen</h5>
+                                            <span class="h2 font-weight-bold mb-0">201</span>
+                                        </div>
+                                        <div class="col-auto">
+                                            <div class="icon icon-shape bg-danger text-white rounded-circle shadow">
+                                                <i class="fas fa-chart-bar"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4">
+                            <div class="card card-stats mb-4 mb-xl-0">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col">
+                                            <h5 class="card-title text-uppercase text-muted mb-0">Jumlah Folder Dokumen
+                                            </h5>
+                                            <span class="h2 font-weight-bold mb-0">15</span>
+                                        </div>
+                                        <div class="col-auto">
+                                            <div class="icon icon-shape bg-warning text-white rounded-circle shadow">
+                                                <i class="fas fa-chart-pie"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4">
+                            <div class="card card-stats mb-4 mb-xl-0">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col">
+                                            <h5 class="card-title text-uppercase text-muted mb-0">Jumlah Cek Dokumen
+                                            </h5>
+                                            <span class="h2 font-weight-bold mb-0">-</span>
+                                        </div>
+                                        <div class="col-auto">
+                                            <div class="icon icon-shape bg-yellow text-white rounded-circle shadow">
+                                                <i class="fas fa-users"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <!--end col-->
             </div>
-            <!--end row-->
         </div>
-        <!--end container-->
-    </footer>
-    <!--end footer-->
-    <!-- Footer End -->
-
-    <!-- Back to top -->
-    <a href="#" class="btn btn-icon btn-soft-primary back-to-top"><i data-feather="arrow-up" class="icons"></i></a>
-    <!-- Back to top -->
-
-    <!-- javascript -->
-    <script src="js/jquery-3.5.1.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/scrollspy.min.js"></script>
-    <!-- Magnific Popup -->
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/magnific.init.js"></script>
-    <!-- SLIDER -->
-    <script src="js/owl.carousel.min.js "></script>
-    <script src="js/owl.init.js "></script>
-    <!-- Typed -->
-    <script src="js/typed.js"></script>
-    <script src="js/typed.init.js"></script>
-    <!-- Counter -->
-    <script src="js/counter.init.js "></script>
-    <!-- Icons -->
-    <script src="js/feather.min.js"></script>
-    <script src="https://unicons.iconscout.com/release/v2.1.9/script/monochrome/bundle.js"></script>
-    <!-- Main Js -->
-    <script src="js/app.js"></script>
+        <!-- Page content -->
+        <div class="container-fluid mt--7">
+            <div class="row">
+                <div class="col-xl-12 mb-5 mb-xl-0">
+                    <div class="card bg-white shadow">
+                        <div class="card-body border-0">
+                            <h1 class="text-center">Selamat datang di Dashboard Pedod.id</h1>
+                            <p class="px-md-5 px-2 text-center">Untuk melakukan pengamanan dokumen, silahkan lihat
+                                tutorial yang
+                                sudah kami sediakan. Apabila anda mengalami kesulitan, silahkan hubungi call center
+                                kami.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer -->
+            <footer class="footer">
+                <div class="row align-items-center justify-content-xl-between">
+                    <div class="col-xl-6">
+                        <div class="copyright text-center text-xl-left text-muted">
+                            &copy; 2020 <a href="https://www.instagram.com/fathil.arham" class="font-weight-bold ml-1"
+                                target="_blank">Fathil Arham</a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <!-- Argon Scripts -->
+    <!-- Core -->
+    <script src="vendor/jquery/dist/jquery.min.js"></script>
+    <script src="vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Optional JS -->
+    <script src="vendor/chart.js/dist/Chart.min.js"></script>
+    <script src="vendor/chart.js/dist/Chart.extension.js"></script>
+    <!-- Argon JS -->
+    <script src="js/argon.min.js?v=1.0.0"></script>
 </body>
 
 </html>

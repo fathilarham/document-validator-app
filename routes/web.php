@@ -14,7 +14,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'HomeController@index');
+Route::get('/contact-us', 'HomeController@showContactUs');
 
+Route::group(['prefix' => 'app'], function () {
+    Route::get('/', 'AppController@showDashboard');
+});
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
