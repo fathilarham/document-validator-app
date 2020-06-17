@@ -1,5 +1,5 @@
 ## Document Validator App
-An app to create digital signature from documents especially for certificate.
+An app to create digital signature for documents especially for certificate.
 
 ## How to use
 1. Clone this repository.
