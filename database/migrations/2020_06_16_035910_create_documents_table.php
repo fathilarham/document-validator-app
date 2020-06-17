@@ -15,7 +15,11 @@ class CreateDocumentsTable extends Migration
     {
         Schema::create('documents', function (Blueprint $table) {
             $table->id();
+            $table->unsignedBigInteger('group_id');
+            $table->foreign('group_id')->references('id')->on('groups')->onDelete('cascade');
+            $table->string('original_name');
             $table->string('path');
+            $table->string('hash_value');
             $table->timestamps();
         });
     }
