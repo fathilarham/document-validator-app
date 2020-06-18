@@ -29,8 +29,8 @@
                                     <div class="form-group position-relative">
                                         <label>Password <span class="text-danger">*</span></label>
                                         <i data-feather="key" class="fea icon-sm icons"></i>
-                                        <input type="password" class="form-control pl-5" placeholder="Password"
-                                            required="">
+                                        <input type="password" name="password" class="form-control pl-5"
+                                            placeholder="Password" required="">
                                         @error('password')
                                         <span class="invalid-feedback" role="alert">
                                             <strong>{{ $message }}</strong>

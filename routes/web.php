@@ -18,6 +18,13 @@ Route::get('/contact-us', 'HomeController@showContactUs');
 
 Route::group(['prefix' => 'app'], function () {
     Route::get('/', 'AppController@showDashboard');
+
+    Route::get('/register-document', 'AppController@showRegisterDocument');
+    Route::post('/register-document', 'AppController@registerDocuments');
+});
+
+Route::get('/check-document', function () {
+    return 'h1';
 });
 Auth::routes();
 
