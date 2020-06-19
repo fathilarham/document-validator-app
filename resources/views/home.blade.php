@@ -13,8 +13,8 @@
                         Ijazah, Piagam, dan dokumen-dokumen digital lainnya
                         yang anda terbitkan.</p>
                     <div class="mt-4">
-                        <a href="javascript:void(0)" class="btn btn-outline-primary rounded"><i
-                                class="mdi mdi-inbox"></i> Coba Aplikasi</a>
+                        <a href="/app" class="btn btn-outline-primary rounded"><i class="mdi mdi-inbox"></i> Coba
+                            Aplikasi</a>
                     </div>
                 </div>
             </div>

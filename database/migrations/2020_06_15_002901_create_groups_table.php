@@ -20,7 +20,7 @@ class CreateGroupsTable extends Migration
             $table->string('code');
             $table->string('title');
             $table->string('institution');
-            $table->date('valid_till');
+            $table->date('valid_till')->nullable();
             $table->timestamps();
         });
     }

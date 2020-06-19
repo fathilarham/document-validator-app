@@ -4,8 +4,12 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Start your development with a Dashboard for Bootstrap 4.">
-    <meta name="author" content="Creative Tim">
+    <meta name="description" content="Pedod.id , Solusi pengamanan dokumen digital" />
+    <meta name="keywords" content="Dokumen Digital, Sertifikat, E-Sertifikat, Piagam" />
+    <meta name="author" content="fathil.arham" />
+    <meta name="email" content="fathil.arham@gmail.com" />
+    <meta name="website" content="http://www.instagram.com/fathil.arham" />
+    <meta name="Version" content="v1.0" />
     <title>Pedod.id App</title>
     <!-- Favicon -->
     <link href="/images/favicon.png" rel="icon" type="image/png">
@@ -83,13 +87,13 @@
                             <i class="fa fa-plus text-orange"></i> Registrasi Dokumen
                         </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/">
+                    <li class="nav-item {{ request()->is('app/folders') ? 'active' : '' }}">
+                        <a class="nav-link" href="/app/folders">
                             <i class="fa fa-folder text-green"></i> Lihat Folder
                         </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/">
+                    <li class="nav-item {{ request()->is('app/documents') ? 'active' : '' }}">
+                        <a class="nav-link" href="/app/documents">
                             <i class="fa fa-file-alt text-yellow"></i> Lihat Dokumen
                         </a>
                     </li>

@@ -13,7 +13,7 @@
                             <div class="row">
                                 <div class="col">
                                     <h5 class="card-title text-uppercase text-muted mb-0">Jumlah Dokumen</h5>
-                                    <span class="h2 font-weight-bold mb-0">201</span>
+                                    <span class="h2 font-weight-bold mb-0">{{ $stat['documents_count'] }}</span>
                                 </div>
                                 <div class="col-auto">
                                     <div class="icon icon-shape bg-danger text-white rounded-circle shadow">
@@ -31,7 +31,7 @@
                                 <div class="col">
                                     <h5 class="card-title text-uppercase text-muted mb-0">Jumlah Folder Dokumen
                                     </h5>
-                                    <span class="h2 font-weight-bold mb-0">15</span>
+                                    <span class="h2 font-weight-bold mb-0">{{ $stat['groups_count'] }}</span>
                                 </div>
                                 <div class="col-auto">
                                     <div class="icon icon-shape bg-warning text-white rounded-circle shadow">
@@ -70,11 +70,13 @@
         <div class="col-xl-12 mb-5 mb-xl-0">
             <div class="card bg-white shadow">
                 <div class="card-body border-0">
-                    <h1 class="text-center">Selamat datang di Dashboard Pedod.id</h1>
+                    <h1 class="text-center">Hallo {{ Auth::user()->name }}</h1>
+                    <h3 class="text-center">Selamat datang di Dashboard Pedod.id</h3>
                     <p class="px-md-5 px-2 text-center">Untuk melakukan pengamanan dokumen, silahkan lihat
                         tutorial yang
                         sudah kami sediakan. Apabila anda mengalami kesulitan, silahkan hubungi call center
-                        kami.</p>
+                        kami. Anda mempunyai batas upload per file sebesar 4 MB. Bila ingin menambah batas ukuran file,
+                        silahkan berlangganan Pedod.id</p>
                 </div>
             </div>
         </div>

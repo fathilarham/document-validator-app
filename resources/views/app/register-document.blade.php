@@ -55,6 +55,19 @@
                                     <span class="btn-inner--text">Regitrasi Dokumen</span>
                                 </button>
                             </div>
+                            <div id="progressBar" class="col-12 d-none">
+                                <div class="progress-wrapper">
+                                    <div class="progress-info">
+                                        <div class="progress-percentage">
+                                            <span>0%</span>
+                                        </div>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="60"
+                                            aria-valuemin="0" aria-valuemax="100" style="width: 0%;"></div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </form>
                 </div>
@@ -151,8 +164,12 @@
 @endif
 @endsection
 @section('js')
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.js"></script>
 <script>
     $(document).ready(function () {
+        var bar = $('.progress-bar');
+        var percent = $('.progress-percentage');
+
         $('#errors').ready(function () {
             $('#errors').click()
         });
@@ -165,7 +182,10 @@
             var count = $(this).get(0).files.length;
             $('.custom-file-label').html(count + " dokumen telah dipilih");
         });
+
+
     });
 </script>
 <script src="/vendor/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 @endsection
